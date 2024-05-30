@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин автозапчастей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .container section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .product-list {
+            list-style: none;
+            padding: 0;
+        }
+        .product-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .product-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Магазин автозапчастей</h1>
+</header>
+
+<nav>
+    <a href="#home">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#products">Товары</a>
+    <a href="#contact">Контакты</a>
+    <a href="#shipping">Доставка</a>
+</nav>
+
+<div class="container">
+    <section id="home">
+        <h2>Добро пожаловать в наш магазин автозапчастей!</h2>
+        <p>Мы предлагаем широкий ассортимент автозапчастей для различных марок автомобилей. Наша цель - предоставить вам качественные запчасти по доступным ценам.</p>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Наш магазин работает на рынке автозапчастей уже более 10 лет. Мы сотрудничаем только с проверенными поставщиками и гарантируем высокое качество нашей продукции.</p>
+    </section>
+
+    <section id="products">
+        <h2>Товары</h2>
+        <ul class="product-list">
+            <li>
+                <h3>Двигатели</h3>
+                <p>Высококачественные двигатели для всех типов автомобилей.</p>
+            </li>
+            <li>
+                <h3>Коробки передач</h3>
+                <p>Надежные коробки передач для легковых и грузовых автомобилей.</p>
+            </li>
+            <li>
+                <h3>Подвеска</h3>
+                <p>Запчасти для подвески, обеспечивающие комфорт и безопасность вождения.</p>
+            </li>
+            <li>
+                <h3>Тормозная система</h3>
+                <p>Комплектующие для тормозной системы, гарантирующие надежное торможение.</p>
+            </li>
+            <li>
+                <h3>Электрооборудование</h3>
+                <p>Разнообразные электрооборудование и аксессуары для вашего автомобиля.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Вы можете связаться с нами по телефону: +7 (123) 456-78-90</p>
+        <p>Или написать нам на email: info@autoparts.ru</p>
+        <p>Адрес: ул. Примерная, д. 1, г. Москва, Россия</p>
+    </section>
+
+    <section id="shipping">
+        <h2>Доставка</h2>
+        <p>Мы осуществляем доставку по всей территории России. Время доставки зависит от вашего местоположения и может варьироваться от 3 до 7 рабочих дней.</p>
+        <p>Стоимость доставки рассчитывается индивидуально в зависимости от веса и габаритов заказа.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Магазин автозапчастей. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
